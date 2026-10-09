@@ -1,0 +1,35 @@
+# dependencies
+**/node_modules/
+
+# environment files
+**/.env
+**/.env.*
+!**/.env.example
+
+# frontend and general build output
+**/dist/
+**/build/
+**/.vite/
+
+# Hardhat output
+**/artifacts/
+**/cache/
+**/typechain/
+**/typechain-types/
+**/coverage/
+**/coverage.json
+
+# logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# editor files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# operating system files
+.DS_Store
+Thumbs.db
