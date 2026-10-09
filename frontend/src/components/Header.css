@@ -1,0 +1,46 @@
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+.status-badge {
+  align-self: flex-start;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background-color: #f1f5f9;
+  color: #64748b;
+  font-size: 13px;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-weight: 500;
+}
+
+.status-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: #94a3b8;
+}
+
+.status-dot.connected {
+  background-color: #10b981;
+}
+
+.title-area {
+  text-align: center;
+  margin-top: 16px;
+}
+
+.main-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #0f172a;
+  letter-spacing: 1px;
+}
+
+.sub-title {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #64748b;
+}
